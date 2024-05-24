@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Site-01/public/css/style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info-box">
+            <h2>Cadastro</h2>
+            <form action="/auth/singup" method="post">
+                <input type="text" name="username" placeholder="Nome de Usuario" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <button type="submit">Cadastre-se</button>
+                <a href="/Site-01/src/views/login.html" class="button">Voltar</a>
+            </form>
+        </div>
+    </div>
+    <script src="/Site-01/public/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* Corpo Principal */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteudo */
+
+.info-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/*Textos*/
+
+.info-box h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/*Caixas de Dialogo*/
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*Botoes de escape*/
+
+a {
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+/*Botão*/
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: #0056b3;
+}
